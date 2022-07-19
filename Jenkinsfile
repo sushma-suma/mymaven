@@ -2,7 +2,7 @@ nodee('built-in')
 {
     stage('ContinuousDownload') 
     {
-        git ' https://github.com/sushma-suma/mymaven.git'
+        git 'https://github.com/sushma-suma/mymaven.git'
     }
     stage('ContinuousBuild') 
     {
